@@ -1,37 +1,39 @@
 # Foundation
 
+[![Latest Version](https://img.shields.io/github/release/RocketPropelledTortoise/ui.svg?style=flat-square)](https://github.com/RocketPropelledTortoise/ui/releases)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/rocket/ui/blob/master/LICENSE.md)
+[![Build Status](https://img.shields.io/travis/RocketPropelledTortoise/UI/master.svg?style=flat-square)](https://travis-ci.org/RocketPropelledTortoise/UI)
+[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/RocketPropelledTortoise/UI.svg?style=flat-square)](https://scrutinizer-ci.com/g/rocket/ui/code-structure)
+[![Quality Score](https://img.shields.io/scrutinizer/g/RocketPropelledTortoise/UI.svg?style=flat-square)](https://scrutinizer-ci.com/g/rocket/ui)
+[![Total Downloads](https://img.shields.io/packagist/dt/rocket/ui.svg?style=flat-square)](https://packagist.org/packages/rocket/ui)
+
 A basic canvas for web applications, with lightweight Javascript framework, Asset Management and Bootstrap Templates
 
-## How it works
+## Install
 
-When you create a laravel page, put `@extends('r_foundation::layout')` at the top, you will automatically use it.
+Via Composer
+
+``` bash
+$ composer require rocket/foundation
+```
 
 ## Usage
 
-Note to self: Extend on that ...
+When you create a Laravel blade template, put `@extends('r_foundation::layout')` at the top, et voilà !
 
-## Sections
+## Testing
 
-You can freely use sections in blade with the following names:
+All the tests live in the [main project](https://github.com/rocket/ui).
 
-### <head>
-- `meta` : add header metas
-- `title` : the document's title
-- `style` : if you want to add some styling rules
-- `header` : anythig else that goes in the header
-- `script_header` : if you want to add a script in the header
+## Contributing
 
-### <body>
-- `body_class` - add one or more classes to the body
-- `body` - entire body, should not be used
-- `script_footer` -  the footer scripts
-- `content` - put your content here
-- `nav` - your menu here
-- `actions` - add content related actions here
-- `before_content` - special content before the main content
+Please see [CONTRIBUTING](https://github.com/rocket/ui/blob/master/CONTRIBUTING.md) for details.
 
-## `//Todo`
+## Credits
 
-This package is usable but still in heavy development, here are some features that need to be added
+- [Stéphane Goetz](https://github.com/onigoetz)
+- [All Contributors](https://github.com/RocketPropelledTortoise/:package_name/contributors)
 
-- Automatic menu
+## License
+
+The MIT License (MIT). Please see [License File](https://github.com/rocket/ui/blob/master/LICENSE.md) for more information.
